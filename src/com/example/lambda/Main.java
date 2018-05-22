@@ -1,14 +1,17 @@
 package com.example.lambda;
 
 /**
- * @author mikew
+ *
+ * @author MikeW
  */
 public class Main {
 
   public static void main(String[] args) {
     
-    RunnableTest.main(args);
-    ComparatorTest.main(args);
-    ListenerTest.main(args);
+    RoboCallTest01.main(args);
+    RoboCallTest02.main(args);
+    RoboCallTest03.main(args);
+    RoboCallTest04.main(args);
+    
   }
 }
