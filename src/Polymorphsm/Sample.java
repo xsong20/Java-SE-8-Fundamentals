@@ -1,6 +1,7 @@
 package Polymorphsm;
 
 // Lesson 8 & 9
+//Java SE 8 Fundamentals: Data Manipulation and Inheritance
 
 public class Sample extends SuperClass {
 	
