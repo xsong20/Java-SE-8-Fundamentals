@@ -4,6 +4,11 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.function.Predicate;
 
+/*
+Read following article for more infomation:
+http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/Lambda-QuickStart/index.html#section3
+*/
+
 public class PredicateExample {
 	
 	public static void main(String[] args) throws PredicateTestFailureException  {
@@ -24,15 +29,15 @@ public class PredicateExample {
 		
 		System.out.println(ayString);
 	
-		
+
 		System.out.println("====== String tests begin ======");
 		
 		//p.test(String s) outputs true or false.
 		if(p.test("123456")) {
 			PredicateExample.suvivedTheTest();
-
 		}
 		
+		// Try throwing a custom Exception.
 		if(p.test("123456")) {
 			PredicateExample.suvivedTheTest();
 		}else {

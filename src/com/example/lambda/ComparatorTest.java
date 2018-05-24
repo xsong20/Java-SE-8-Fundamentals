@@ -22,7 +22,7 @@ public class ComparatorTest {
     
     System.out.println("=== Sorted Asc SurName ===");
     for(Person p:personList){
-      p.printName();
+      p.print();
     }
     
     // Use Lambda instead
@@ -32,7 +32,7 @@ public class ComparatorTest {
     Collections.sort(personList, (Person p1, Person p2) -> p1.getSurName().compareTo(p2.getSurName()));
 
     for(Person p:personList){
-      p.printName();
+      p.print();
     }
     
     // Print Desc
@@ -40,7 +40,7 @@ public class ComparatorTest {
     Collections.sort(personList, (p1,  p2) -> p2.getSurName().compareTo(p1.getSurName()));
 
     for(Person p:personList){
-      p.printName();
+      p.print();
     }
     
   }
