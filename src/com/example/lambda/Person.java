@@ -4,6 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Function;
 
+/*
+ * Builder patter is used to create a collection.
+ */
+
+
 /**
  * @author MikeW
  */

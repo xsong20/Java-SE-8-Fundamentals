@@ -23,6 +23,8 @@ public class GenericsExample {
 
 		GenericsExample.printArrayE((ArrayList<String>)sl);
 		GenericsExample.printArrayT((ArrayList<String>)sl);
+		
+
 	}
 
 }
