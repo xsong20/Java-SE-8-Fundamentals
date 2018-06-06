@@ -10,7 +10,7 @@ public class ArrayListSample {
 		// TODO Auto-generated method stub
 		
 		// test the output of .toString() method
-		ArrayList al1 = new ArrayList();
+		ArrayList<String> al1 = new ArrayList<String>();
 		System.out.println(al1.toString());
 
 		// 
